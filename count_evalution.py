@@ -22,12 +22,6 @@ elif setting == "5":
   t3 = np.loadtxt("./genre1-10/data/d21/data.csv",delimiter=",").astype(np.int64)
   t4 = np.loadtxt("./genre7-9/data/d21/data.csv",delimiter=",").astype(np.int64)
   t5 = np.loadtxt("./genre7-10/data/d21/data.csv",delimiter=",").astype(np.int64)
-elif setting == "4":
-  t1 = np.loadtxt("./genre1-7/data/d12/data.csv",delimiter=",").astype(np.int64)
-  t2 = np.loadtxt("./genre1-9/data/d12/data.csv",delimiter=",").astype(np.int64)
-  t3 = np.loadtxt("./genre1-10/data/d12/data.csv",delimiter=",").astype(np.int64)
-  t4 = np.loadtxt("./genre7-9/data/d12/data.csv",delimiter=",").astype(np.int64)
-  t5 = np.loadtxt("./genre7-10/data/d12/data.csv",delimiter=",").astype(np.int64)
 elif setting == "1":
   t1 = np.loadtxt("./genre1-7/data/d11/data.csv",delimiter=",").astype(np.int64)
   t2 = np.loadtxt("./genre1-9/data/d11/data.csv",delimiter=",").astype(np.int64)
